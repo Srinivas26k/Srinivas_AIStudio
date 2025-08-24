@@ -102,7 +102,7 @@ window.VideoProtection = {
     console.log('%c⚠️ Content Protection Active', 'color: #ff6b6b; font-size: 20px; font-weight: bold; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);');
     console.log('%cThis content is protected by digital rights management.', 'color: #ffa500; font-size: 14px; font-weight: bold;');
     console.log('%cUnauthorized downloading, copying, or distribution is prohibited.', 'color: #666; font-size: 12px;');
-    console.log('%cContact srinivas.ai.studio@gmail.com for licensing inquiries.', 'color: #4a9eff; font-size: 12px;');
+    console.log('%cContact srinivasvarma764@gmail.com for licensing inquiries.', 'color: #4a9eff; font-size: 12px;');
   }
 };
 
