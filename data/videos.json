@@ -15,11 +15,11 @@
       "tags": ["luxury", "timepiece", "product reveal"],
       "description": "High-end product showcase using AI video generation - achieving $10k commercial quality at student prices.",
       "poster": "assets/images/Luxury_Watch_Reveal_Video_Generation_thumb.jpg",
-      "src": "videos/Luxury_Watch_Reveal_Video_Generation.mp4",
+      "src": "assets/videos/Luxury_Watch_Reveal_Video_Generation.mp4",
       "duration": "0:30",
       "aspect": "16:9",
       "featured": true
-    },
+    }, 
     {
       "id": "artisan-leather-stitching",
       "title": "Artisan Craft Showcase",
@@ -27,7 +27,7 @@
       "tags": ["craftsmanship", "heritage", "macro", "leather"],
       "description": "Macro cinematography using AI - perfect for artisan brands and craft businesses wanting premium visuals on a budget.",
       "poster": "assets/images/Artisan_Leather_Stitching_Video_Generation_thumb.jpg",
-      "src": "videos/Artisan_Leather_Stitching_Video_Generation.mp4",
+      "src": "assets/videos/Artisan_Leather_Stitching_Video_Generation.mp4",
       "duration": "0:45",
       "aspect": "16:9",
       "featured": true
@@ -39,7 +39,7 @@
       "tags": ["logo reveal", "vfx", "fluid simulation", "molten"],
       "description": "A high-end VFX logo reveal with dynamic fluid simulation and molten metal effects.",
       "poster": "assets/images/Molten_Emblem_Reveal_Video_Generation_thumb.jpg",
-      "src": "videos/Molten_Emblem_Reveal_Video_Generation.mp4",
+      "src": "assets/videos/Molten_Emblem_Reveal_Video_Generation.mp4",
       "duration": "0:15",
       "aspect": "16:9",
       "featured": true
@@ -51,7 +51,7 @@
       "tags": ["rube goldberg", "mechanical", "sound design", "cascade"],
       "description": "A satisfying Rube-Goldberg machine with high-impact sound design and precise mechanical timing.",
       "poster": "assets/images/Mechanical_Cascade_Product_Reveal_Video_thumb.jpg",
-      "src": "videos/Mechanical_Cascade_Product_Reveal_Video.mp4",
+      "src": "assets/videos/Mechanical_Cascade_Product_Reveal_Video.mp4",
       "duration": "1:00",
       "aspect": "16:9",
       "featured": true
@@ -63,7 +63,7 @@
       "tags": ["brand story", "genesis", "cinematic", "hands", "crafting"],
       "description": "Crafting a brand universe from its very foundation - a cinematic journey of creation and evolution through skilled hands.",
       "poster": "assets/images/Hands_Crafting_Brand_Universe_From_Seed_thumb.jpg",
-      "src": "videos/Hands_Crafting_Brand_Universe_From_Seed.mp4",
+      "src": "assets/videos/Hands_Crafting_Brand_Universe_From_Seed.mp4",
       "duration": "1:30",
       "aspect": "16:9",
       "featured": true
@@ -75,7 +75,7 @@
       "tags": ["cinematography", "camera movement", "professional"],
       "description": "Professional camera movement and cinematography showcase demonstrating dynamic angles and smooth transitions.",
       "poster": "assets/images/_the_camera_202508241143_thumb.jpg",
-      "src": "videos/_the_camera_202508241143.mp4",
+      "src": "assets/videos/_the_camera_202508241143.mp4",
       "duration": "0:45",
       "aspect": "16:9",
       "featured": false
