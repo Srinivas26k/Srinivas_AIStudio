@@ -1,0 +1,116 @@
+{
+  "categories": [
+    "All",
+    "Product",
+    "Branding", 
+    "Motion Graphics",
+    "Artisan",
+    "Luxury"
+  ],
+  "videos": [
+    {
+      "id": "luxury-watch-reveal",
+      "title": "Luxury Watch Product Reveal",
+      "category": "Product",
+      "tags": ["luxury", "timepiece", "product reveal"],
+      "description": "High-end product showcase using AI video generation - achieving $10k commercial quality at student prices.",
+      "poster": "assets/images/Luxury_Watch_Reveal_Video_Generation_thumb.jpg",
+      "src": "/videos/Luxury_Watch_Reveal_Video_Generation.mp4",
+      "duration": "0:30",
+      "aspect": "16:9",
+      "featured": true
+    },
+    {
+      "id": "artisan-leather-stitching",
+      "title": "Artisan Craft Showcase",
+      "category": "Artisan",
+      "tags": ["craftsmanship", "heritage", "macro", "leather"],
+      "description": "Macro cinematography using AI - perfect for artisan brands and craft businesses wanting premium visuals on a budget.",
+      "poster": "assets/images/Artisan_Leather_Stitching_Video_Generation_thumb.jpg",
+      "src": "/videos/Artisan_Leather_Stitching_Video_Generation.mp4",
+      "duration": "0:45",
+      "aspect": "16:9",
+      "featured": true
+    },
+    {
+      "id": "molten-emblem-reveal",
+      "title": "Molten Emblem Reveal",
+      "category": "Motion Graphics",
+      "tags": ["logo reveal", "vfx", "fluid simulation", "molten"],
+      "description": "A high-end VFX logo reveal with dynamic fluid simulation and molten metal effects.",
+      "poster": "assets/images/Molten_Emblem_Reveal_Video_Generation_thumb.jpg",
+      "src": "/videos/Molten_Emblem_Reveal_Video_Generation.mp4",
+      "duration": "0:15",
+      "aspect": "16:9",
+      "featured": true
+    },
+    {
+      "id": "mechanical-cascade-product",
+      "title": "Mechanical Cascade Product Reveal",
+      "category": "Product",
+      "tags": ["rube goldberg", "mechanical", "sound design", "cascade"],
+      "description": "A satisfying Rube-Goldberg machine with high-impact sound design and precise mechanical timing.",
+      "poster": "assets/images/Mechanical_Cascade_Product_Reveal_Video_thumb.jpg",
+      "src": "/videos/Mechanical_Cascade_Product_Reveal_Video.mp4",
+      "duration": "1:00",
+      "aspect": "16:9",
+      "featured": true
+    },
+    {
+      "id": "hands-crafting-brand",
+      "title": "Hands Crafting Brand Universe",
+      "category": "Branding",
+      "tags": ["brand story", "genesis", "cinematic", "hands", "crafting"],
+      "description": "Crafting a brand universe from its very foundation - a cinematic journey of creation and evolution through skilled hands.",
+      "poster": "assets/images/Hands_Crafting_Brand_Universe_From_Seed_thumb.jpg",
+      "src": "/videos/Hands_Crafting_Brand_Universe_From_Seed.mp4",
+      "duration": "1:30",
+      "aspect": "16:9",
+      "featured": true
+    },
+    {
+      "id": "camera-test",
+      "title": "The Camera Test",
+      "category": "Product",
+      "tags": ["cinematography", "camera movement", "professional"],
+      "description": "Professional camera movement and cinematography showcase demonstrating dynamic angles and smooth transitions.",
+      "poster": "assets/images/_the_camera_202508241143_thumb.jpg",
+      "src": "/videos/_the_camera_202508241143.mp4",
+      "duration": "0:45",
+      "aspect": "16:9",
+      "featured": false
+    }
+  ],
+  "stats": {
+    "projectsCompleted": 6,
+    "averageViewIncrease": 85,
+    "videosGenerated": 12,
+    "averageTurnaround": 24
+  },
+  "testimonials": [
+    {
+      "id": 1,
+      "quote": "Srinivas delivered amazing AI videos for our startup at a fraction of what agencies quoted. Perfect quality, student-friendly pricing!",
+      "author": "Alex Chen",
+      "role": "Founder",
+      "company": "TechStart",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=64&h=64&fit=crop&crop=face"
+    },
+    {
+      "id": 2,
+      "quote": "Finally found someone who gets that small businesses need big brand content without big brand budgets. The AI videos look incredible!",
+      "author": "Sarah Williams",
+      "role": "Marketing Director",
+      "company": "Local Craft Co",
+      "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=64&h=64&fit=crop&crop=face"
+    },
+    {
+      "id": 3,
+      "quote": "Saved us $8000 compared to traditional video production. Srinivas made our product look like a million bucks for under $100.",
+      "author": "Michael Rodriguez",
+      "role": "E-commerce Owner",
+      "company": "Rodriguez Designs",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=64&h=64&fit=crop&crop=face"
+    }
+  ]
+}

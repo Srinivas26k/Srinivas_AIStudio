@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srinivas AI Studio | Affordable AI Video & Image Generation</title>
+    <meta name="description" content="Student freelancer offering professional AI-generated videos, images, and banners using Sora, Qwen, ComfyUI at affordable rates. Boost your content at minimal cost.">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Srinivas AI Studio - Affordable AI Content Creation">
+    <meta property="og:description" content="Professional AI-generated videos and images at student-friendly prices. Boost your content strategy with cutting-edge AI tools.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://placehold.co/1200x630/0B0C10/8CF3FF?text=Srinivas+AI+Studio">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Srinivas AI Studio - Affordable AI Content Creation">
+    <meta name="twitter:description" content="Professional AI-generated videos and images at student-friendly prices.">
+    <meta name="twitter:image" content="https://placehold.co/1200x630/0B0C10/8CF3FF?text=Srinivas+AI+Studio">
+    
+    <!-- Preconnect to CDNs for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    
+    <!-- Critical CSS will be inlined, external CSS loaded async -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet"></noscript>
+    
+    <!-- GSAP (GreenSock Animation Platform) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    
+    <!-- Lenis Smooth Scroll -->
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.29/dist/lenis.min.js"></script>
+    
+    <!-- SplitType for text animations -->
+    <script src="https://cdn.jsdelivr.net/npm/split-type@0.3.4/dist/index.min.js"></script>
+    
+    <!-- Plyr Video Player -->
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css">
+    <script src="https://cdn.plyr.io/3.7.8/plyr.min.js"></script>
+    
+    <!-- Swiper for carousels -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/theme.css">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Srinivas AI Studio",
+      "description": "Student freelancer offering professional AI-generated videos, images, and banners using Sora, Qwen, ComfyUI at affordable rates.",
+      "url": "https://srinivas-ai-studio.github.io",
+      "logo": "https://placehold.co/400x400/0B0C10/8CF3FF?text=Srinivas+AI",
+      "sameAs": [
+        "https://twitter.com/srinivasai",
+        "https://linkedin.com/in/srinivas-ai-studio"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-555-0123",
+        "contactType": "Customer Service",
+        "availableLanguage": "English"
+      }
+    }
+    </script>
+</head>
+<body class="antialiased">
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress"></div>
+
+    <!-- Header & Navigation -->
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#" class="nav-brand">Srinivas<span class="accent">AI</span></a>
+                <ul class="nav-links">
+                    <li><a href="#showcase" class="nav-link">Work</a></li>
+                    <li><a href="#process" class="nav-link">Process</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="btn btn-primary">Get Quote</a></li>
+                </ul>
+                <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+            </nav>
+            <div class="mobile-menu" id="mobile-menu">
+                <ul class="mobile-nav-links">
+                    <li><a href="#showcase" class="nav-link">Work</a></li>
+                    <li><a href="#process" class="nav-link">Process</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="btn btn-primary">Get Quote</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="hero-background" id="hero-background">
+                <video autoplay muted loop playsinline class="hero-video">
+                    <source src="videos/_the_camera_202508241143.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1 class="hero-title" id="hero-title">AI Boosts Your Content at 70% Lower Cost</h1>
+                <p class="hero-subtitle" id="hero-subtitle">Student freelancer delivering professional AI videos, images & banners using Sora, Qwen, ComfyUI. Premium quality at minimal workforce cost - perfect for startups and small businesses.</p>
+                <div class="hero-cta">
+                    <a href="#showcase" class="btn btn-primary btn-lg btn-magnetic" id="hero-cta">View My Work</a>
+                </div>
+                <!-- Trust Indicators -->
+                <div class="hero-trust">
+                    <p class="text-subtle">Showcasing the future of video production</p>
+                </div>
+            </div>
+            <div class="hero-scroll-indicator">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M7 13l3 3 7-7"/>
+                    <path d="M7 6l3 3 7-7"/>
+                </svg>
+            </div>
+        </section>
+
+        <!-- Showcase Section -->
+                <!-- Video Showcase Section -->
+        <section id="showcase" class="py-20 md:py-32 bg-surface">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-5xl font-bold text-center mb-4">Our Portfolio</h2>
+                <p class="text-subtle text-center max-w-2xl mx-auto mb-12">Professional AI-generated videos showcasing the power of cutting-edge technology in visual storytelling.</p>
+                
+                <!-- Category Filters -->
+                <div class="filter-tabs mb-12">
+                    <button class="filter-tab active" data-category="All">All</button>
+                    <button class="filter-tab" data-category="Product">Product</button>
+                    <button class="filter-tab" data-category="Creative">Creative</button>
+                    <button class="filter-tab" data-category="Commercial">Commercial</button>
+                    <button class="filter-tab" data-category="Artisan">Artisan</button>
+                    <button class="filter-tab" data-category="Motion Graphics">Motion Graphics</button>
+                    <button class="filter-tab" data-category="Branding">Branding</button>
+                </div>
+
+                <!-- Video Grid -->
+                <div class="video-grid" id="video-grid">
+                    <!-- Videos will be loaded dynamically -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Services/Capabilities Section -->
+        <section class="section" id="services" style="background: var(--surface);">
+            <div class="container">
+                <div class="text-center">
+                    <h2>What I Create with AI</h2>
+                    <p class="text-large text-muted" style="margin-bottom: var(--space-12);">Professional content creation using multiple AI models - delivering studio-quality results at student-friendly prices.</p>
+                </div>
+                <div class="grid grid-3">
+                    <div class="glass-card">
+                        <div style="color: var(--brand); margin-bottom: var(--space-4);">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="margin: 0 auto;">
+                                <path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"></path>
+                                <circle cx="12" cy="13" r="3"></circle>
+                            </svg>
+                        </div>
+                        <h3>AI Videos (Sora/Qwen)</h3>
+                        <p class="text-muted">Professional video content using latest AI models - product showcases, ads, and social media content at 70% lower cost than traditional production.</p>
+                    </div>
+                    <div class="glass-card">
+                        <div style="color: var(--brand); margin-bottom: var(--space-4);">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="margin: 0 auto;">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="3" y1="9" x2="21" y2="9"></line>
+                                <line x1="9" y1="21" x2="9" y2="9"></line>
+                            </svg>
+                        </div>
+                        <h3>AI Images & Banners</h3>
+                        <p class="text-muted">Custom graphics, posters, website headers, and marketing materials using ComfyUI and advanced AI image generation models.</p>
+                    </div>
+                    <div class="glass-card">
+                        <div style="color: var(--brand); margin-bottom: var(--space-4);">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="margin: 0 auto;">
+                                <polygon points="23 7 16 12 23 17 23 7"></polygon>
+                                <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
+                            </svg>
+                        </div>
+                        <h3>Complete Brand Packages</h3>
+                        <p class="text-muted">Full content suites including videos, images, and graphics - everything your startup needs to compete with big brands on a student budget.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section class="section" id="process">
+            <div class="container">
+                <div class="text-center">
+                    <h2>How I Work (Student-Friendly Process)</h2>
+                    <p class="text-large text-muted" style="margin-bottom: var(--space-12);">Fast, affordable, and professional - designed to give small businesses big brand impact without the big budget.</p>
+                </div>
+                <div class="process-timeline">
+                    <div class="timeline-line"></div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <div class="timeline-step">01. Understanding & Planning</div>
+                            <h3 class="timeline-title">Capturing Your Vision</h3>
+                            <p class="timeline-description">I start by understanding your goals and requirements, then craft detailed prompts that will guide the AI generation process.</p>
+                        </div>
+                        <div class="timeline-marker"></div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <div class="timeline-step">02. AI Generation</div>
+                            <h3 class="timeline-title">Creating Content</h3>
+                            <p class="timeline-description">Using advanced AI tools, I generate multiple video options, carefully selecting the best outputs that align with your vision.</p>
+                        </div>
+                        <div class="timeline-marker"></div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <div class="timeline-step">03. Enhancement</div>
+                            <h3 class="timeline-title">Adding Polish</h3>
+                            <p class="timeline-description">I enhance the selected footage with any necessary editing, color correction, and optimization for your intended use.</p>
+                        </div>
+                        <div class="timeline-marker"></div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <div class="timeline-step">04. Delivery</div>
+                            <h3 class="timeline-title">Final Assets</h3>
+                            <p class="timeline-description">You receive your finished video in the format you need, with any revisions discussed and implemented.</p>
+                        </div>
+                        <div class="timeline-marker"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="section" style="background: var(--surface);">
+            <div class="container">
+                <div class="text-center">
+                    <h2>What Clients Say</h2>
+                    <p class="text-large text-muted" style="margin-bottom: var(--space-12);">Real results from real clients who've experienced the VEO3™ difference.</p>
+                </div>
+                <div class="testimonials-slider" id="testimonials-slider">
+                    <!-- Dynamically populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section" id="about" style="background: var(--surface);">
+            <div class="container">
+                <div class="grid grid-2" style="align-items: center; gap: var(--space-16);">
+                    <div>
+                        <h2>Student Freelancer Making AI Affordable</h2>
+                        <p class="text-large" style="margin-bottom: var(--space-6);">Hi! I'm Srinivas, a computer science student who discovered that AI can create studio-quality content at a fraction of traditional costs. Now I'm helping startups and small businesses compete with the big players.</p>
+                        <p class="text-muted" style="margin-bottom: var(--space-8);">Why pay $5000+ for video production when AI can deliver the same quality for under $100? I use Sora, Qwen, ComfyUI, and other cutting-edge tools to create videos and images that look like they cost thousands - but don't.</p>
+                        <div style="display: flex; gap: var(--space-6); flex-wrap: wrap;">
+                            <div>
+                                <div style="font-size: var(--font-size-2xl); font-weight: 700; color: var(--brand);">70%</div>
+                                <div class="text-muted">Cost Savings</div>
+                            </div>
+                            <div>
+                                <div style="font-size: var(--font-size-2xl); font-weight: 700; color: var(--brand);">12+</div>
+                                <div class="text-muted">Happy Clients</div>
+                            </div>
+                            <div>
+                                <div style="font-size: var(--font-size-2xl); font-weight: 700; color: var(--brand);">24h</div>
+                                <div class="text-muted">Delivery Time</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="glass-card" style="padding: var(--space-12);">
+                            <h3 style="margin-bottom: var(--space-6);">Why Choose AI Content?</h3>
+                            <ul style="list-style: none; padding: 0;">
+                                <li style="padding: var(--space-3) 0; display: flex; align-items: center; gap: var(--space-3);">
+                                    <div style="width: 24px; height: 24px; background: var(--brand); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--bg); font-size: 12px;">✓</div>
+                                    <span>Studio quality at student prices</span>
+                                </li>
+                                <li style="padding: var(--space-3) 0; display: flex; align-items: center; gap: var(--space-3);">
+                                    <div style="width: 24px; height: 24px; background: var(--brand); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--bg); font-size: 12px;">✓</div>
+                                    <span>No crews, no equipment, no delays</span>
+                                </li>
+                                <li style="padding: var(--space-3) 0; display: flex; align-items: center; gap: var(--space-3);">
+                                    <div style="width: 24px; height: 24px; background: var(--brand); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--bg); font-size: 12px;">✓</div>
+                                    <span>Perfect for startups & small biz</span>
+                                </li>
+                                <li style="padding: var(--space-3) 0; display: flex; align-items: center; gap: var(--space-3);">
+                                    <div style="width: 24px; height: 24px; background: var(--brand); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--bg); font-size: 12px;">✓</div>
+                                    <span>Custom content for your needs</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2>Ready to Boost Your Content at 70% Less Cost?</h2>
+                    <p class="text-large text-muted" style="margin-bottom: var(--space-12);">Get studio-quality AI videos and images that make your brand look like a million bucks - without the million dollar price tag. Student rates, professional results.</p>
+                </div>
+                <form class="contact-form" id="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" id="name" name="name" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" id="email" name="email" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="project-type" class="form-label">Project Type</label>
+                        <select id="project-type" name="project-type" class="form-select">
+                            <option value="">What do you need?</option>
+                            <option value="ai-video">AI Video (Product/Marketing)</option>
+                            <option value="ai-images">AI Images/Graphics/Banners</option>
+                            <option value="social-content">Social Media Package</option>
+                            <option value="brand-package">Complete Brand Package</option>
+                            <option value="logo-animation">Logo Animation</option>
+                            <option value="other">Something else</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="budget" class="form-label">Budget Range</label>
+                        <select id="budget" name="budget" class="form-select">
+                            <option value="">Select budget range</option>
+                            <option value="under-100">Under $100</option>
+                            <option value="100-250">$100 - $250</option>
+                            <option value="250-500">$250 - $500</option>
+                            <option value="500-1000">$500 - $1,000</option>
+                            <option value="1000+">$1,000+</option>
+                            <option value="discuss">Let's discuss</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="timeline" class="form-label">When do you need this?</label>
+                        <select id="timeline" name="timeline" class="form-select">
+                            <option value="">Select timeline</option>
+                            <option value="asap">ASAP</option>
+                            <option value="1-week">Within 1 week</option>
+                            <option value="2-weeks">Within 2 weeks</option>
+                            <option value="1-month">Within 1 month</option>
+                            <option value="flexible">I'm flexible</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Project Details</label>
+                        <textarea id="message" name="message" class="form-textarea" rows="4" placeholder="Tell me about your vision, goals, and any specific requirements..."></textarea>
+                    </div>
+                    <!-- Honeypot field for spam protection -->
+                    <input type="text" name="_gotcha" style="display: none !important;">
+                    <button type="submit" class="btn btn-primary form-submit">Send Message & Get Quote</button>
+                </form>
+                <div id="form-status" style="margin-top: var(--space-6); text-align: center;"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="#about" class="footer-link">About</a>
+                    <a href="#showcase" class="footer-link">Portfolio</a>
+                    <a href="legal/privacy.html" class="footer-link">Privacy</a>
+                    <a href="legal/terms.html" class="footer-link">Terms</a>
+                    <a href="mailto:srinivas.ai.studio@gmail.com" class="footer-link">Contact</a>
+                </div>
+                <p>&copy; 2025 Srinivas AI Studio. Student Freelancer • Affordable AI Content Creation</p>
+                <p class="text-subtle" style="font-size: var(--font-size-sm); margin-top: var(--space-2);">Professional AI video & image generation • Sora, Qwen, ComfyUI • 70% cost savings</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Video Modal -->
+    <div class="video-modal" id="video-modal">
+        <div class="video-modal-content">
+            <video id="modal-video" 
+                   controls 
+                   preload="none"
+                   controlslist="nodownload nofullscreen noremoteplayback"
+                   disablepictureinpicture
+                   oncontextmenu="return false;"
+                   style="pointer-events: auto;">
+                Your browser does not support the video tag.
+            </video>
+            <div class="video-protection-overlay"></div>
+            <button class="modal-close" id="modal-close" aria-label="Close video">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- Floating Contact Button -->
+    <button class="floating-contact" id="floating-contact" aria-label="Quick contact">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+        </svg>
+    </button>
+
+
+    <!-- Main Application Script -->
+    <script src="assets/js/app.js"></script>
+    
+    <!-- Analytics (replace with your tracking IDs) -->
+    <!-- Google Analytics 4 -->
+    <!--
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+    -->
+    
+    <!-- Plausible Analytics (privacy-friendly alternative) -->
+    <!--
+    <script defer data-domain="veo3studios.com" src="https://plausible.io/js/script.js"></script>
+    -->
+
+    <!-- Service Worker for Performance (optional) -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then(registration => console.log('SW registered'))
+            .catch(registrationError => console.log('SW registration failed'));
+        });
+      }
+    </script>
+</body>
+</html>
