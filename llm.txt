@@ -1,0 +1,25 @@
+# llm.txt - LLM usage and transparency file for https://example.com
+# Replace example.com and the placeholders below with your real domain and info.
+# Version: 1.0
+
+Site: https://example.com
+Generated-By: Human + AI
+AI-Usage-Policy: We use large language models to generate marketing copy, FAQs, and customer support drafts. All AI-generated content is reviewed by humans before publishing.
+Models:
+- name: GPT-4 (or specify your provider/model)
+  provider: OpenAI
+  version: gpt-4
+  purpose: "Marketing copy, support reply drafts, content suggestions"
+  safety-mitigations: "Human review, profanity filter, manual QA for legal/medical claims"
+
+Training-Data-Disclosure: "The models used are trained on a mixture of licensed data, data created by human trainers, and publicly available data. We do not feed personally identifiable user data into model training without explicit consent."
+
+Privacy-Notes: "We may send user-submitted text to third-party AI providers for processing. Do not submit personal, financial, or sensitive data unless requested and consented to by our team."
+
+Opt-Out: For requests to opt out of AI processing or data deletion requests, contact: privacy@example.com
+
+Contact: security@example.com
+
+License: All content on this site is ©2025 YourCompany. AI-generated content is noted where applicable.
+
+Last-Updated: 2025-08-25
